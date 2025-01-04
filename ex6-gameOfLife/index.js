@@ -17,11 +17,12 @@ const NUM_ROWS = 40;
  * @property {number} y
  * @property {boolean} alive
  * @property {boolean} [nextAlive]
- *  * @property {number} lifeTime
+ * @property {number} lifeTime
 
  */
 
 /** @typedef {GridCell[]} GridRow */
+
 
 /**
  * Create a cell with the given coordinates and randomly assign its begin state:
